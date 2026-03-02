@@ -191,7 +191,7 @@ class MultiAccountManager:
                 "Connection": "close"
             }
             data = {
-                "uid": "4584323899,
+                "uid": "4584323899",
                 "password": "F318FFB942A4F64DDA1136FC9D83BA5369429233A5E2B1CB219BC829EC63D4DE",
                 "response_type": "token",
                 "client_type": "2",
@@ -232,7 +232,7 @@ class MultiAccountManager:
             
 async def SEnd_InV_with_Cosmetics(Nu, Uid, K, V, region):
     """Simple version - just add field 5 with basic cosmetics"""
-    region = "ind"
+    region = "bd"
     fields = {
         1: 2, 
         2: {
